@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "types": [
+            "node",
+            "webdriverio/sync",
+            "@wdio/mocha-framework"
+        ]
+    },
+        "include": [
+            //we need to provide the path  where our test cases are located
+         "test/specs/*.js",
+          "**/*.json",
+          "node_modules/@wdio/sync",
+          "node_modules/@wdio/mocha-framework"
+        ]
+}
